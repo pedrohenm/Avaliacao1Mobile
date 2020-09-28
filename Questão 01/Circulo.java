@@ -19,7 +19,8 @@ public class Circulo
     Use a assinatura abaixo como base:
     */
     public Circulo(double raio, String cor) {
-        // escreva aqui sua resposta
+        this.raio = raio;
+        this.cor = cor;
     }
 
     // Métodos de acesso
@@ -35,5 +36,5 @@ public class Circulo
         return "Circulo [raio=" + raio + ", cor=" + cor + "]";
     }
     // O que a palavra `@Override` indica? Por que ela foi colocada neste método da classe?
-    // Resposta:
+    // Resposta: é uma "annotation" que indica que o metodo toString da clasee Object está sendo sobreposto.
 }
