@@ -14,7 +14,7 @@ public class Jogador {
     private int indiceMao;
     
     public void Jogador(){
-        mao = new Carta[];
+        mao = new Carta[3];
         this.indiceMao = 0;
     }
     
