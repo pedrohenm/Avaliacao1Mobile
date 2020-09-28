@@ -6,5 +6,11 @@ parâmetros. Este construtor deve configurar o valor de
 `altura` para `1.0` e deve inicializar a `base` (criar o objeto).
 */
 public class Cilindro {
+    private Circulo circulo;
+    private double Altura;
     
+    public void Cilindro(){
+        this.Altura = 1.0;
+        circulo = new Circulo();
+    }
 }
