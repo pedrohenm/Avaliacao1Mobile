@@ -12,11 +12,13 @@ public class Quadrado implements Geometria{
   }
   
   @Override
-  public void getPerimetro() {
+  public double getPerimetro() {
+    return (4.0 * this.Lado);
   }
 
   @Override
-  public void getArea() {
+  public double getArea() {
+    return (this.Lado * this.Lado);
   }
 
 }
